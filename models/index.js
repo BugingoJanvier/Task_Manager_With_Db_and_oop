@@ -1,7 +1,7 @@
 import { Sequelize } from 'sequelize';
 import config from '../config/config.cjs';
 import tasksModel from './tasks.js';
- 
+  
 const sequelize = new Sequelize(
   config.development.database,
   config.development.username,
