@@ -1,5 +1,5 @@
 // Only import the db object — this includes all defined models via Sequelize
-import db from '../models/index.js';
+import db from '../models/index.js'; 
 
 // Destructure the Tasks model from the db object
 const { Tasks } = db;

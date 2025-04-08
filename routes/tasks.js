@@ -1,6 +1,6 @@
 import express from 'express';
 import controller from '../controllers/tasksController.js';
-
+ 
 const router = express.Router();
 
 router.post('/', controller.createTask);
