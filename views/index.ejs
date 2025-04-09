@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Task Manager</title>
+
+    <link rel="stylesheet" href="/CSS/style.css">
+
+</head>
+
+<body>
+
+    <header>
+     <h1>Task Manager</h1>
+      </header>
+        <div class="container">
+
+        <!-- Search Form -->
+
+        <form action="/" method="GET" id="search-form">
+
+            <input type="text" name="search" placeholder="Search tasks..." value="" />
+
+            <button type="submit">Search</button>
+
+        </form>
+
+        <!-- New Task Form -->
+
+        <form id="task-form">
+
+            <h3>Create a New Task</h3>
+            <input type="text" name="title" placeholder="Enter task description" required />
+            <input type="text" name="task" placeholder="Enter task description" required />
+            <button type="submit">Add Task</button>
+
+        </form>
+
+        <!-- Task List Table -->
+
+        <h3>Task List</h3>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Title</th>
+                    <th>description</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="task-list">
+        </tbody>
+    </div>
+
+    <script type="module" src="/JS/taskManager.js">
+
+    </script>
+
+   
+
+       
+
+       
+
+</body>
+
+
+
+</html>
+
