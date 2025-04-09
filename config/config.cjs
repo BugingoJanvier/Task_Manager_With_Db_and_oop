@@ -15,10 +15,6 @@ module.exports = {
         trustServerCertificate: true,
       },
     },
-    logging: (msg) => {
-      if (msg.includes('INSERT')) {
-        //console.log(msg);  // Only log INSERT queries
-      }
-    },
+    logging: false
   },
 };
